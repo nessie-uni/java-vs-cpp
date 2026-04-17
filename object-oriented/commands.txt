@@ -1,0 +1,17 @@
+To compile Java
+javac hello.class
+
+To run Java
+java hello
+
+To compile C++ classless
+g++ hello-classless.cpp -o hello-classless
+
+To run C++ classless
+./hello-classless
+
+To compile C++ with classes
+g++ hello-class.cpp -o hello-class
+
+To run C++ with classes
+./hello-class

@@ -1,0 +1,20 @@
+To compile Java files
+javac OtherFile.java
+javac OtherFileTestDrive.java
+
+To run Java program
+java OtherFileTestDrive
+
+To compile C++ files
+g++ OtherFile.cpp OtherFileTestDrive.cpp -o OtherFileCPP
+
+To run C++ program
+./OtherFileCPP
+
+To compile java package
+cd java-packages
+javac src/com/nessie/examplepackage/*.java -d ./classes
+
+To run java package
+cd classes
+java com.nessie.examplepackage.PackageExecutor
