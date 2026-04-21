@@ -1,0 +1,11 @@
+To compile Java
+javac Cat.class
+
+To run Java
+java Cat
+
+To compile C++
+g++ Cat.cpp -o Cat
+
+To run C++
+./Cat
