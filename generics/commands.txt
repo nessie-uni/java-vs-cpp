@@ -1,0 +1,10 @@
+Files in this section deliberately include errors to prevent them from
+compiling to showcase the use of generics. As such, they will not
+compile. However, commands to compile them are present so that the
+user can see the errors that the compiler would provide.
+
+To compile Java
+javac generics.java
+
+To compile C++
+g++ generics.cpp -o generics

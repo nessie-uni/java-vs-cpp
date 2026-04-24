@@ -1,3 +1,5 @@
 Each subdirectory here shows the differences between Java and C++ in the type spefified in its title.
 
 The commands.txt file in each directory shows the commands necessary to compile and run the files for one's own experience. They assume that your current working directory is the one containing them at the beginning, and then will change directory as necessary. Executing every command in the file in sequence should fully test the comparison between C++ and Java in that section.
+
+While the commands.txt files use g++ for C++ compilation, you are free to use your own compiler if you prefer a different one. However, in the use-cases section, there are C++ programs cross-compiled for different architectures. It is recommended that you do not recompile these files, however execution is still recommended.
