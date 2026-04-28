@@ -1,0 +1,22 @@
+To compile Java for any system
+javac program.java
+
+To run Java 
+java program
+
+To compile C++ for x64
+g++ program.cpp -o program-x64
+
+To run C++ for x64
+./program-x64
+
+To compile C++ for ARM systems*
+aarch64-linux-gnu-g++ program.cpp -o program-ARM
+
+To run C++ for ARM (only works on a machine with an ARM processor!)
+./program-ARM
+
+*The cross-platform compiler for ARM systems may differ depending on
+your device. If you are using a Linux distribution with apt-get, you
+can install a cross-compiler as shwon below.
+sudo apt-get install aarch64-linux-gnu-g++ -y
